@@ -41,12 +41,12 @@ nav li{
     color: #4E47FF;
     font-size: 45px;
 }
-div{
+.header-style{
     text-align: center;
-    padding: 50px 267.5px 90px 267.5px;
+    padding: 50px 267.5px 100px 267.5px;
 }
 h1{
-    font-size: 50px;
+    font-size: 65px;
 }
 header div button{
     width: 150px;
@@ -62,4 +62,42 @@ header div button:hover{
     background-color: #4E47FF;
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 255, 0.5);
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 130px;
+    align-items: center;
+}
+.section-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 10px;
+}
+/* section 1 button style */
+.section1-bt{
+    width: 200px;
+    height: 40px;
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.star:hover{
+    background-color: #4E47FF;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.5);
+}
+section img{
+    border-radius: 20px;
+}
+.h3{
+    font-size: 42px;
+}
+.p{
+    font-size: 24px;
+    color: #2a2936;
+    margin-right: 250px;
 }
