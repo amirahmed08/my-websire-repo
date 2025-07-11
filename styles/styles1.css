@@ -46,7 +46,7 @@ nav li{
     padding: 50px 267.5px 100px 267.5px;
 }
 h1{
-    font-size: 65px;
+    font-size: 450%;
 }
 header div button{
     width: 150px;
@@ -92,6 +92,9 @@ header div button:hover{
 }
 section img{
     border-radius: 20px;
+   width: 350px;
+   height: 300px;
+
 }
 .h3{
     font-size: 42px;
@@ -99,5 +102,31 @@ section img{
 .p{
     font-size: 24px;
     color: #2a2936;
-    margin-right: 250px;
+    margin-right: 550px;
+}
+/* section2 */
+.secondary-bg{
+    background-color: #d8d6fd;
+    margin: 0px 130px;
+    border-radius: 10px;
+}
+.about{
+    border-radius: 10px;
+    padding: 50px 142px;
+    text-align: center;
+}
+.section-title{
+    font-size: 38px;
+}
+.section2-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0px;
+}
+.item-description{
+    margin: 0px;
 }
