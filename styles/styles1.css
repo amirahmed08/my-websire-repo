@@ -7,6 +7,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+main{
+    background-color: rgba(222, 222, 255, 0.5);
+}
 .bg{
     background-image: url(../Assets/Hero-bg.png);
 }
@@ -51,6 +54,7 @@ h1{
 header div button{
     width: 150px;
     height: 50px;
+    font-size: 18px;
     background-color: #4E47FF;
     border: none;
     color: white;
@@ -63,10 +67,11 @@ header div button:hover{
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 255, 0.5);
 }
+/* section 1 button style */
 .first-section{
     display: flex;
     justify-content: space-between;
-    padding: 60px 130px;
+    padding: 50px 130px;
     align-items: center;
 }
 .section-img{
@@ -74,10 +79,11 @@ header div button:hover{
     height: 328px;
     border-radius: 10px;
 }
-/* section 1 button style */
+
 .section1-bt{
     width: 200px;
     height: 40px;
+    font-size: 18px;
     background-color: #4E47FF;
     border: none;
     color: white;
@@ -102,12 +108,12 @@ section img{
 .p{
     font-size: 24px;
     color: #2a2936;
-    margin-right: 550px;
+    margin-right: 300px;
 }
-/* section2 */
+/* section2 style */
 .secondary-bg{
     background-color: #d8d6fd;
-    margin: 0px 130px;
+    margin: 50px 130px;
     border-radius: 10px;
 }
 .about{
@@ -117,6 +123,7 @@ section img{
 }
 .section-title{
     font-size: 38px;
+    margin: 20px;
 }
 .section2-items{
     display: flex;
@@ -130,3 +137,159 @@ section img{
 .item-description{
     margin: 0px;
 }
+/* section3 styles */
+.user-review{
+    margin: 50px 130px;  
+}
+.section3-title{
+ text-align: center;
+}
+.section3-title{
+    font-size: 38px;
+}
+.review-rate{
+    width: 20px;
+    height: 20px;
+}
+.profile-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.review-section{
+    display: flex;
+    gap: 50px;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+.review-content{
+ box-shadow: 2px 2px 2px 2px rgb(153, 153, 153) ;
+ padding: 20px;
+ border-radius: 10px;
+}
+.c1{
+    display: flex;
+    align-items: center;
+}
+.profile-name{
+    margin: 0 0 0 15px;
+    font-size: 16px;
+}
+.profile-date{
+    margin: 0 0 0 15px;  
+}
+/* section4 styles */
+.progress{
+    margin: 50px 130px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+
+.section4-bt{
+    width: 170px;
+    height: 50px;
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+.section4-bt:hover{
+    background-color: #4E47FF;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.5);
+}
+.section4-img{
+    width: 840px;
+    height: 364.77px;
+    margin-top: 20px;
+}
+.section4-h{
+    font-size: 45px;
+    margin: 0;
+}
+.section4-p{
+    font-size: 15px;
+    color: #3d3d3d;
+}
+/* section5 style */
+.input-data{
+    padding: 50px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section form p{
+    margin-bottom: 0px;
+}
+section div input{
+    height: 50px;
+    width: 497px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0px 20px;
+}
+section form textarea{
+    height: 100px;
+    width: 497px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0px 20px;
+}
+.last-bt{
+     width: 497px;
+    height: 50px;
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    margin: 10px 20px;
+}
+.last-bt:hover{
+    background-color: #4E47FF;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.5);
+}
+.input-head{
+    margin:10px 100px 0 0;
+    font-size: 20px;
+}
+/* footer style */
+.footer-bg{
+    background-color: white;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+footer li{
+    list-style: none;
+    margin: 10px;
+ 
+}
+footer li a{
+    text-decoration: none;
+       color: black;
+}
+footer div ul{
+    display: flex;
+   justify-content: center;
+}
+.last-h{
+    font-size: 70px;
+    margin: 0;
+}
+.last-div{
+    padding: 20px 500px 90px 500px;
+}
+footer div p{
+    color: #8987A1;
+}
+
+
